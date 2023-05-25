@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test 3</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./styles/index.css">
+</head>
+
+<body>
+  <div id="top" class="wrapper">
+    <header class="header">
+      <div class="container header__container">
+        <a href="#" class="header__logo">LOGO</a>
+
+        <ul class="reset-list header__menu">
+          <li><a href="#">Startseite</a></li>
+
+          <li class="active"><a href="#content">Über uns</a></li>
+
+          <li><a href="#slider">Kontakt</a></li>
+        </ul>
+
+        <button type="button" class="btn-hamburger-menu">
+          <div class="line bg-primary"></div>
+          <div class="line line--middle bg-sky-blue"></div>
+          <div class="line bg-primary"></div>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <!-- breadcrumbs -->
+      <div class="container">
+        <ul class="reset-list breadcrumbs">
+          <li class="breadcrumb__item breadcrumb__item-decore">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_701_22232)">
+                <path d="M5 12H3L12 3L21 12H19" stroke="#667085" stroke-width="1.66667"
+                  stroke-linecap="square" />
+                <path
+                  d="M5 12V19C5 19.5304 5.21071 20.0391 5.58579 20.4142C5.96086 20.7893 6.46957 21 7 21H17C17.5304 21 18.0391 20.7893 18.4142 20.4142C18.7893 20.0391 19 19.5304 19 19V12"
+                  stroke="#667085" stroke-width="1.66667" stroke-linecap="square" />
+                <path
+                  d="M9 21V15C9 14.4696 9.21071 13.9609 9.58579 13.5858C9.96086 13.2107 10.4696 13 11 13H13C13.5304 13 14.0391 13.2107 14.4142 13.5858C14.7893 13.9609 15 14.4696 15 15V21"
+                  stroke="#667085" stroke-width="1.66667" stroke-linecap="square" />
+              </g>
+              <defs>
+                <clipPath id="clip0_701_22232">
+                  <rect width="24" height="24" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+          </li>
+
+          <li class="breadcrumb__item"><a href="#">Startseite</a></li>
+
+          <li class="breadcrumb__item active"><a href="#">Uber Uns</a></li>
+        </ul>
+      </div>
+
+
+      <!-- content -->
+      <section id="content" class="section overflow-h">
+        <div class="container">
+          <div class="section-title">
+            <div class="decore">
+              <div class="decore-squares">
+                <div class="decore-squares__item bg-gray"></div>
+                <div class="decore-squares__item bg-sky-blue"></div>
+                <div class="decore-squares__item bg-primary"></div>
+                <div class="decore-squares__item bg-primary"></div>
+                <div class="decore-squares__item bg-sky-blue"></div>
+                <div class="decore-squares__item bg-gray"></div>
+              </div>
+            </div>
+
+            <div class="section-title__title">
+              <h1>Über Uns</h1>
+              <img loading="lazy" class="title-decore__image" src="./assets/bg-title.jpg"
+                alt="Title backbgound">
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="content content--grid">
+            <div class="content-first">
+              <div class="images-box">
+                <div class="image-first">
+                  <img loading="lazy" class="" src="./assets/news-picture-01.jpg" alt="Content image people">
+                </div>
+
+                <div class="image-second">
+                  <img loading="lazy" class="" src="./assets/news-picture-02.jpg" alt="Content image people">
+                </div>
+              </div>
+
+              <p>
+                Nunc feugiat imperdiet dolor, sit amet consectetur tortor facilisis ac. Vivamus quam
+                neque, euismod porttitor magna et, finibus tincidunt justo. Nullam vehicula velit
+                sed diam sagittis, eget pretium nisi mollis. Etiam in risus nibh. Curabitur feugiat
+                pulvinar enim, in blandit massa suscipit id. Donec mollis vel lacus sit amet
+                rhoncus.
+              </p>
+
+              <br><br><br>
+
+              <p class="weight-500">
+                Pellentesque tempus nunc sit amet erat placerat, eu varius sem sollicitudin:
+              </p>
+
+              <br>
+
+              <ul class="weight-500">
+                <li>Nam in massa gravida</li>
+                <li>Nam in massa gravida</li>
+                <li>Nam in massa gravida</li>
+              </ul>
+
+              <br>
+
+              <p class="weight-500">
+                Mauris sollicitudin lorem in orci porta, ac tincidunt neque consequat. Sed dictum
+                diam
+                vehicula aliquet vehicula. Vivamus ultrices facilisis sollicitudin. Duis vel mi non
+                eros
+                porttitor imperdiet. Pellentesque tempor nunc sed mi laoreet venenatis.
+              </p>
+            </div>
+
+            <div class="content-second">
+              <p>
+                <b>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dapibus, mauris
+                  efficitur ornare rhoncus, libero ex rutrum tortor, ut viverra mi odio ac purus.
+                  Pellentesque convallis id lectus auctor efficitur. Donec faucibus, magna quis
+                  tristique aliquet
+                </b>
+
+                <br><br>
+
+                Fusce ac finibus ipsum, vel mollis lorem. Interdum et malesuada fames ac ante ipsum
+                primis in faucibus. Pellentesque suscipit quam non nulla sollicitudin hendrerit.
+                Praesent dictum tempus neque. Donec et lacus quis felis ultrices mattis.
+
+                <br><br>
+
+                Quisque tempor aliquet dui, sed dignissim augue varius vel. Maecenas ut lacinia
+                orci.
+                Sed efficitur finibus arcu in porta. Donec sed tempus neque, eu fringilla orci. Sed
+                tincidunt nulla quis est fringilla rhoncus. In neque purus, suscipit id hendrerit
+                quis, pulvinar faucibus felis.
+                In semper sapien sit amet dolor lobortis, interdum mollis sapien pretium. Phasellus
+                euismod ullamcorper turpis vel pretium. Vivamus id convallis enim. Pellentesque
+                eleifend felis sit amet elit faucibus, ac auctor urna feugiat. Sed eu sagittis urna.
+                Pellentesque nunc felis, molestie a mauris et, pellentesque ultricies velit.
+                Pellentesque elementum eu ante lacinia dapibus. In facilisis dolor ac felis
+                vehicula,
+                vitae tincidunt libero hendrerit.
+
+                <br><br>
+
+                Donec ultricies lorem in mi tincidunt ornare. Etiam non turpis lacus. Donec
+                scelerisque tellus in turpis tristique, et imperdiet sem mollis. Nam fermentum non
+                sem
+                id viverra. Sed quis arcu rutrum, ornare tortor id, lobortis metus. Fusce ornare
+                ligula eu urna dignissim, ut condimentum odio tempor. Proin eu est enim. Nam lacus
+                leo, accumsan nec quam nec, fermentum molestie orci. Morbi in nisi vitae arcu rutrum
+                ornare eu at nulla.
+              </p>
+            </div>
+
+            <div class="content-third">
+              <div class="content-third__image-box">
+                <img loading="lazy" src="./assets/news-picture-03.jpg" alt="Content picture track">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- slider -->
+      <div id="slider" class="overflow-h">
+        <div class="container">
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="grid-container">
+                  <div class="grid-item grid-item--small"></div>
+                  <div class="grid-item grid-item--big"></div>
+                  <div class="grid-item grid-item--small"></div>
+                  <div class="grid-item grid-item--small"></div>
+                  <div class="grid-item grid-item--small"></div>
+                  <div class="grid-item grid-item--big"></div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="grid-container">
+                  <div class="grid-item grid-item--small"></div>
+                  <div class="grid-item grid-item--big"></div>
+                  <div class="grid-item grid-item--small"></div>
+                  <div class="grid-item grid-item--small"></div>
+                  <div class="grid-item grid-item--small"></div>
+                  <div class="grid-item grid-item--big"></div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="grid-container">
+                  <div class="grid-item grid-item--small"></div>
+                  <div class="grid-item grid-item--big"></div>
+                  <div class="grid-item grid-item--small"></div>
+                  <div class="grid-item grid-item--small"></div>
+                  <div class="grid-item grid-item--small"></div>
+                  <div class="grid-item grid-item--big"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- arrows -->
+            <div class="swiper-button-prev">
+              <svg width="23" height="39" viewBox="0 0 23 39" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M8.3626 19.946L23 34.7244L18.8187 38.946L0 19.946L18.8187 0.946045L23 5.16764L8.3626 19.946Z"
+                  fill="#204497" />
+              </svg>
+            </div>
+
+            <div class="swiper-button-next">
+              <svg width="23" height="39" viewBox="0 0 23 39" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M14.6374 19.946L0 5.16764L4.1813 0.946045L23 19.946L4.1813 38.946L0 34.7244L14.6374 19.946Z"
+                  fill="#204497" />
+              </svg>
+            </div>
+
+            <!-- pagination dots -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <div class="overlay"></div>
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <script src="./index.js"></script>
+</body>
+
+</html>

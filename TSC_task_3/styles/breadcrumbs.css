@@ -1,0 +1,41 @@
+/* breadcrumbs */
+.breadcrumbs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1em;
+  margin: 40px 0;
+  line-height: 22px;
+  letter-spacing: 0.01em;
+}
+
+@media screen and (max-width: 768px) {
+  .section-title__title h1 {
+    margin: 0;
+  }
+}
+
+.breadcrumbs li:not(:first-child):not(:last-child)::after {
+  content: url(../assets/arrow.svg);
+  font-size: 1rem;
+  margin-left: 1em;
+}
+
+.breadcrumb__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 4px;
+}
+
+.breadcrumb__item-decore {
+  padding-top: 0;
+}
+
+.breadcrumb__item.active {
+  font-weight: 700;
+  color: var(--primary);
+}

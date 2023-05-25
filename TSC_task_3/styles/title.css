@@ -1,0 +1,113 @@
+.section-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.section-title__title {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: var(--white);
+  background-color: var(--primary);
+  width: 100%;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+}
+
+.section-title__title img {
+  position: absolute;
+  left: 0;
+  mix-blend-mode: multiply;
+  opacity: 0.35;
+  height: 100%;
+  width: 100%;
+}
+
+.section-title__title h1 {
+  position: relative;
+  z-index: 1;
+  margin: 10px 0 6px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .section-title__title h1 {
+    margin: 0;
+  }
+}
+
+.decore {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 110px;
+  flex: 0 0 110px;
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .decore {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 calc(35px + (110 - 35) * ((100vw - 768px) / (1200 - 768)));
+    flex: 0 0 calc(35px + (110 - 35) * ((100vw - 768px) / (1200 - 768)));
+  }
+}
+
+.decore-squares {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 3.5fr 0.5rem 1fr 0.5rem 1.5fr;
+  grid-template-columns: 3.5fr 1fr 1.5fr;
+  -ms-grid-rows: 1fr 0.5rem 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0.5rem;
+  width: 100%;
+  height: 100%;
+}
+
+.decore-squares > *:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+}
+
+.decore-squares > *:nth-child(2) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+}
+
+.decore-squares > *:nth-child(3) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 5;
+}
+
+.decore-squares > *:nth-child(4) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+}
+
+.decore-squares > *:nth-child(5) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+}
+
+.decore-squares > *:nth-child(6) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 5;
+}
+
+@media screen and (max-width: 768px) {
+  .decore {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 35px;
+    flex: 0 0 35px;
+  }
+  .decore-squares {
+    gap: 0.2rem;
+  }
+}

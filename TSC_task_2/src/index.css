@@ -71,4 +71,10 @@ button:focus-visible {
   :root {
     color: rgba(255, 255, 255, 0.87);
   }
+  .ant-form-item .ant-form-item-label > label,
+  .ant-form-item label {
+    color: #f9f9f9;
+  }
 }
+
+
